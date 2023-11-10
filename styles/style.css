@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
+    --white: #F9FAF8;
+    --grey: #E5E7EB;
+}
+
 * {
     margin: 0;
     padding: 0;
