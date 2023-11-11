@@ -138,8 +138,14 @@ header nav ul li a,
     align-self: flex-end;
 }
 
-button,
-.action .box {
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+}
+
+button {
     color: var(--white);
     background-color: var(--light-blue);
     font-size: 18px;
@@ -149,6 +155,26 @@ button,
     margin-top: 16px;
 }
 
+.action .box {
+    color: var(--white);
+    background-color: var(--light-blue);
+    padding: 48px 120px;
+    display: flex;
+    gap: 240px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.action .box button {
+    border: 2px solid var(--white);
+}
+
 .action .box .box-text h3 {
     font-size: 24px;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
 }
