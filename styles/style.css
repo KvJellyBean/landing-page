@@ -79,10 +79,63 @@ header nav ul li a,
     color: var(--grey);
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 48px;
+}
+
 .information h3 {
     font-size: 36px;
     font-weight: bolder;
     color: var(--dark-blue);
+}
+
+.information img {
+    width: 150px;
+    height: 150px;
+    border-radius: 18px;
+    border: 6px solid var(--light-blue);
+}
+
+.infos {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    text-align: center;
+    gap: 8px;
+}
+
+.quote {
+    background-color: var(--grey);
+    color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    width: 820px;
+    text-align: justify;
+}
+
+.quote h2 {
+    margin-right: 400px;
+    align-self: flex-end;
 }
 
 button,
@@ -96,16 +149,6 @@ button,
     margin-top: 16px;
 }
 
-.action .box .box-text h4 {
+.action .box .box-text h3 {
     font-size: 24px;
-}
-
-.quote {
-    background-color: var(--grey);
-    color: var(--dark-blue);
-}
-
-.quote p {
-    font-size: 36px;
-    font-style: italic;
 }
