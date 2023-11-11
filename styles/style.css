@@ -11,7 +11,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
     font-family: Roboto, sans-serif;
 }
 
@@ -55,7 +54,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 80px;
     gap: 170px;
 }
 
@@ -95,15 +94,16 @@ header nav ul li a,
 }
 
 .information img {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 160px;
     border-radius: 18px;
+    object-fit: cover;
     border: 6px solid var(--light-blue);
 }
 
 .infos {
     display: flex;
-    gap: 48px;
+    gap: 72px;
     margin-bottom: 50px;
 }
 
